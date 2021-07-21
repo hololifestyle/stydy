@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title> 미디어쿼리 써먹기 </title>
+    <meta charset="utf-8">
+    <style>
+      body {
+        margin:0px;
+      }
+      h1 {
+        border-bottom: 1px solid;
+        padding:30px;
+        margin:0px;
+        text-align:center;
+      }
+
+      ul {
+        border-right: 1px solid;
+        margin:0px;
+        padding:30px;
+        display:block;
+        width:250px;
+
+      }
+
+      #a {
+        display:grid;
+        grid-template-columns:310px 1fr;
+      }
+
+      #a #b {
+        padding-left:20px;
+      }
+
+      @media(max-width:500px) {
+      h1 {
+        border-bottom:none;
+      }
+      ul {
+        border-right:none;
+      }
+      #a {
+        grid-template-columns: none;
+      }
+
+      }
+
+
+    </style>
+  </head>
+
+
+  <body>
+    <h1>홀로(holo)의 히스토리</h1>
+
+    <div id="a">
+     <ul>
+      <li> 이어포닝(earphoning) </li><br>
+      <li> 홀로타공박스(pegboard box)</li><br>
+      <li> 도모(domo)</li>
+     </ul>
+     <div id="b">
+      <h2>이어포닝(earphoning)</h2>
+      <p>
+      상상을 커스터마이징하는 건 아주 재밌고 멋진 일이에요 우리 모두 다 함께 홀로타공박스를 구매하여 만족도 높은 삶을 살아보는건 어떨까요?
+      타공박스는 아주 이쁘고 멋지고 튼튼해서 수많은 셀럽들에게 사랑받고 있는 아주 훌륭한 아이템입니다. 이게 기가 막혀요 엄청 이쁘거든요
+      여러분들도 늦지 말고 얼른 구매하세요 푸하하 이런것이 인생이지요 하하
+      </p>
+    </div>
+   </div>
+
+
+  </body>
+ </html>

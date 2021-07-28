@@ -55,7 +55,7 @@ body {
 
 #d {
   display: grid;
-  grid-template-columns: 400px 600px;
+  grid-template-columns: 400px 1fr;
 }
 
 #d p {
@@ -64,7 +64,7 @@ body {
   text-align:justify;
 }
 
-@media(max-width:800px) {
+@media(max-width:1000px) {
   #a {
     grid-template-columns: none;
   }

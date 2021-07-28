@@ -1,74 +1,53 @@
-<!DOCTYPE html>
+<!doctype html> <!-- 통상적으로 맨 위에 쓰는거 -->
  <html>
-  <head>
-    <title> 미디어쿼리 써먹기 </title>
-    <meta charset="utf-8">
-    <style>
-      body {
-        margin:0px;
-      }
-      h1 {
-        border-bottom: 1px solid;
-        padding:30px;
-        margin:0px;
+   <head>
+     <title> 뜨겁게 타오르는 치킨밀키트 </title> <!-- 타이틀 -->
+     <meta charset="utf-8"> <!-- 이걸 입력해야 한글폰트가 먹힘 -->
+     <style>
+
+     h1{
+       text-align: center;
+       font-size: 40px;
+     }
+
+
+
+     h1 a {
+       color:red;
+       text-decoration: none;
+     }
+
+      #a {
+        position: absolute;
+        left:50%;
+        top:50%;
+        margin-left:-250px;
+        margin-top:-166.789px;
         text-align:center;
       }
 
-      ul {
-        border-right: 1px solid;
-        margin:0px;
-        padding:30px;
-        display:block;
-        width:250px;
-
-      }
-
-      #a {
-        display:grid;
-        grid-template-columns:310px 1fr;
-      }
-
-      #a #b {
-        padding-left:20px;
-      }
-
-      @media(max-width:1000px) {
-      h1 {
-        border-bottom:none;
-      }
-      ul {
-        border-right:none;
-      }
-      #a {
-        grid-template-columns: none;
-      }
-
-      }
+      /* 중앙을 정렬하는 또 다른 방법
+      #b {
+        position: absolute;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        width:500px;
+        height:333.576px;
+        margin:auto;
+    }
+      */
+     </style>
 
 
-    </style>
-  </head>
 
+   </head>
 
-  <body>
-    <h1>홀로(holo)의 히스토리</h1>
-
-    <div id="a">
-     <ul>
-      <li> 이어포닝(earphoning) </li><br>
-      <li> 홀로타공박스(pegboard box)</li><br>
-      <li> 도모(domo)</li>
-     </ul>
-     <div id="b">
-      <h2>이어포닝(earphoning)</h2>
-      <p>
-      상상을 커스터마이징하는 건 아주 재밌고 멋진 일이에요 우리 모두 다 함께 홀로타공박스를 구매하여 만족도 높은 삶을 살아보는건 어떨까요?
-      타공박스는 아주 이쁘고 멋지고 튼튼해서 수많은 셀럽들에게 사랑받고 있는 아주 훌륭한 아이템입니다. 이게 기가 막혀요 엄청 이쁘거든요
-      여러분들도 늦지 말고 얼른 구매하세요 푸하하 이런것이 인생이지요 하하
-      </p>
-    </div>
-   </div>
-
-
-  </body>
+   <body>
+      <h1><a href="index.html">Chicken</a></h1>
+      <div id="a"><a href="1.html"><img src="https://cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/7RQJRSE66NU34YE72OGF5WO33U.jpg" width="500px"></a><br>
+        <h2>기름에 튀기는 DIY 치킨밀키트 (feat.캠핑장)</h2>
+      </div>
+   </body>
  </html>
